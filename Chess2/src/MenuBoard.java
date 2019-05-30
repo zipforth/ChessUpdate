@@ -8,7 +8,7 @@ public class MenuBoard
 	String whoWon="no one";
 	String win;
 	String[][] Board = new String[8][8];
-	int[] pieceVal={22000,2000000,20000,8000,80000,40000};
+	int[] pieceVal={2200,200000,2000,800,8000,4000};
 	String[] pieces={"B","K","N","P","Q","R"};
 	
 	boolean WcanC = true;
