@@ -76,20 +76,13 @@ public class startChess
 			String diff=kb.nextLine();
 			switch(diff)
 			{
-			case "VE":
-			case "Ve":
-			case "vE":
-			case "ve":difficulty=0;break;
-			case "E":
-			case "e":difficulty=1;break;
-			case "M":
-			case "m":difficulty=2;break;
-			case "H":
-			case "h":difficulty=3;break;
-			case "I":
-			case "i":difficulty=8;break;
+			case "[Vv][Ee]":difficulty=0;break;
+			case "[Ee]":difficulty=1;break;
+			case "[Mm]":difficulty=2;break;
+			case "[Hh]":difficulty=3;break;
+			case "[Ii]":difficulty=8;break;
 			}
-			System.out.println("Pick a side(b/w):");
+			System.out.println(difficulty+" Pick a side(b/w):");
 
 			if (kb.nextLine().contains("w"))
 			{
